@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Anet's Dictionary</title>
+  </head>
+  <body>
+    <h1>ANET'S DICTIONARY</h1>
+    <div class="container">
+      <input id="userSearch" type="text" placeholder="Type a word" />
+      <button class="btn" onclick="searchWord()">Find meaning</button>
+    </div>
+    <div class="result">
+      <div>
+        <h2>Meaning:</h2>
+        <p id="meaning"></p>
+      </div>
+      <div>
+        <h2>Translation:</h2>
+        <p id="translate"></p>
+      </div>
+      <div>
+        <h2>Example:</h2>
+        <i><p id="example"></p></i>
+      </div>
+    </div>
+  </body>
+</html>
